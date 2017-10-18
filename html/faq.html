@@ -1,0 +1,193 @@
+<!--qna-->
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <!--[if let IE 9]>
+  <script src="../ie/html5shiv/html5shiv/dist/html5shiv.min.js"></script>
+  <script src="../ie/ie7/IE9.js"></script>
+  <script src="../ie/PIE/PIE_IE9.js"></script>
+  <![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../css/base/reset.css" />
+<link rel="stylesheet" type="text/css" href="../css/base/nomalize.css" />
+<link rel="stylesheet" type="text/css" href="../fontAwesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/src/faq.css" />
+
+<script src="../js/jquery/jquery-3.2.1.min.js"></script>
+<script src="../js/jquery/jquery-ui.min.js"></script>
+  <title>faq page</title>  
+</head>
+<body>
+  <div id="wrap"> 
+  <!--header-->
+  <header id="headBox">
+      <h1 id="logo"><a href="./main.html"><span class="hidden">jyp entertainment</span></a></h1>
+      <section id="gnbWrap">
+      <h2 class="hidden">menu</h2>
+      <button id="gnbBoox"><span class="hidden">메뉴창입니다.</span><div class="gnbLogo"></div></button>
+      <div id="gnbBox">
+        <div class="photoWrap">
+          <div class="gnbpBox">
+          </div>
+          <div class="fLBox">
+          <h3 class="hidden">familysite,language</h3>
+          <form action="#" method="post">
+          <fieldset class="facebookLanguage">
+            <legend class="hidden">패밀리사이트이동,언어 선택</legend>
+            <ul class="flList">
+              <li class="familysite">
+                <label for="familysite" class="hidden">jyp 패밀리사이트로 이동하신다면 선택하세요.</label>
+                <select name="familysite" id="familysite">
+                  <option>familysite</option>
+                  <option value="http://book.interpark.com/event/EventPremiumNewApplicant.do?_method=JYPStore">jyp store</option>
+                  <option value="https://fans.jype.com">jyp fan's</option>
+                </select></li>
+              <li class="language">
+                <label for="language" class="hidden">언어를 선택하세요.</label>
+                <select name="languageSelect" id="language">
+                  <option value="languageSelect">language</option>
+                  <option value="korea">korea</option>
+                  <option value="english">english</option>
+                  <option value="china">china</option>
+                  <option value="japan">japan</option>
+                </select>
+              </li>
+            </ul>
+          </fieldset>
+          </form>
+          </div>
+          <div class="gsnsBox"><h3 class="hidden">jypsns</h3>
+            <ul class="gsnsList">
+              <li class="twitter"><a href="https://twitter.com/jypnation"></a></li>
+              <li class="facebook"><a href="https://www.facebook.com/jypnation"></a></li>
+              <li class="instagram last_li_right"><a href="https://www.instagram.com/jyp_audition_official"></a></li>
+            </ul><!--gnbSnsu_ul-->
+          </div>
+        </div><!--photoWrap-->
+        <div class="listWrap">
+          <div class="listBox">
+            <ul class="gnblist">
+              <li class="company"><a href="./aboutJyp.html">company</a>
+                  <ul class="companyMore">
+                    <li class="aboutJyp"><a href="./aboutJyp.html">aboutjyp</a></li>
+                    <li class="history"><a href="#">history</a></li>
+                    <li class="notice"><a href="#">notice</a></li>
+                    <li class="recruit"><a href="#">recruit</a></li>
+                    <li class="ir"><a href="#">ir</a></li>
+                  </ul>
+              </li><!--company-->
+              <li class="artist"><a href="./artist.html">artist</a></li>
+              <li class="actor"><a href="./actor.html">actor</a></li>
+              <li class="audition"><a href="./audition.html">audition</a>
+                <ul class="auditionMore">
+                    <li class="auditionLi"><a href="./audition.html">audition</a></li>
+                    <li class="news"><a href="#">news</a></li>
+                    <li class="faq"><a href="./faq.html">faq</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+      </section>
+    </header>    
+<!--innerBox________________________________________________________________-->
+    <section id="innerBox" class="clearfix">
+      <h2 class="faq"><a href="#">faq</a></h2>
+    </section>
+<!--content_________________________________________________________________-->
+    <section id=contentWrap>
+      <h2 class="hidden">faq</h2>
+      <article id="contentBox">
+      <h3>faq 자주묻는질문</h3> 
+        <div class="qtitle"><p class="no">no</p><p class="title">title</p></div>
+        <dl>         
+            <dt class="dtNo"><p class="dtNo">1</p><span class="qButton"></span><p class="f">합격하면 어떻게 연락오나요?
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">심사 완료 후 3주 안에 합격자에 한해서만 연락 드립니다.
+                                                          지원서에 등록하신 휴대전화로 먼저 연락 드리며,
+                                                          반드시 본인과의 전화 통화를 통해서 결과 알려드립니다.
+                                                          해외 거주자의 경우 전화 통화가 불가능 할 경우 이메일로 결과 알려드립니다.</p></dd>
+            <dt><p class="dtNo">2</p><span class="qButton"></span><p class="f">온라인 오디션에 합격하면 바로 연습생이 되나요?
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">온라인 오디션에 합격하시면 JYP 트레이닝 센터에서 개별 오디션을 보시게 됩니다.
+                                                          최종적으로 합격하신 분들에 한해서
+                                                          JYP Entertainment의 교육 프로그램에 참여하실 수 있는 기회가 주어집니다.</p></dd>
+            <dt><p class="dtNo">3</p><span class="qButton"></span><p class="f">친구랑 함께 팀으로 지원해도 되나요? 
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">최대 5명까지 팀으로 지원하실 수 있습니다. 
+                                                          지원하기 페이지에서 팀원 모두 지원서를 등록해주시면 됩니다. 
+                                                          영상 촬영이나 음원 녹음을 함께 하셨을 경우 대표자 한 분이 업로드 해주시면 되겠습니다.</p></dd>
+            <dt><p class="dtNo">4</p><span class="qButton"></span><p class="f">지원서를 등록하고 어떻게 확인 할 수 있나요?
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">JYP 온라인 오디션 페이지 왼쪽에 위치한 퀵메뉴 하단 [지원서 확인하기]를 클릭하시면 
+                                                          로그인 후 등록하신 지원서와 첨부파일을 확인 및 수정하실 수 있습니다. 
+                                                          단, 지원서는 수정하실 수 있지만 삭제하실 수 없습니다.</p></dd>
+            <dt><p class="dtNo">5</p><span class="qButton"></span><p class="f">업로드 한 첨부파일이 없어졌어요. 
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">지원하실 때 첨부하신 사진, 영상, 음원 파일은 심사가 완료된 후 7일 이내에 삭제됩니다.
+                                                          심사가 완료된 후에는 JYP A&amp;R 본부의 심사 코멘트가 등록됩니다.
+                                                          [지원서 확인하기] 페이지에서 확인하세요.</p></dd>
+            <dt><p class="dtNo">6</p><span class="qButton"></span><p class="f">제가 올린 영상을 다른 사람들이 보나요? 
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">JYP 온라인 오디션에 지원하신 내용은 지원자와 JYP A&amp;R 본부만 확인할 수 있습니다.</p></dd>
+            <dt><p class="dtNo">7</p><span class="qButton"></span><p class="f">영상이 업로드 되지 않아요. 
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">첨부파일의 용량은 50MB로 제한되어 있습니다. 
+                                                          용량이 초과될 시 업로드 되지 않습니다. 
+                                                          반드시 용량을 확인하시고 업로드 해주세요.</p></dd>
+            <dt><p class="dtNo">8</p><span class="qButton"></span><p class="f">사진, 영상, 음원 모두 올려야만 하나요?
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">3가지 중 한 가지 이상은 올려주셔야 지원이 완료됩니다. 
+                                                          본인의 지원분야에 맞는 파일 한 가지 이상 올려주세요. 
+                                                          예를 들어 보컬 부문으로 지원하실 경우 댄스 동영상은 올리지 않으셔도 무관합니다.</p></dd>
+            <dt><p class="dtNo">9</p><span class="qButton"></span><p class="f">한 가지 분야만 지원할 수 있나요? 
+              <button type="button"></button>
+              <i class="fa fa-arrow-circle-down"></i></p></dt>
+            <dd><span class="aButton"></span><p class="f">JYP 온라인 오디션에 지원하실 때 동영상 및 음원 등의 첨부파일을 업로드 하실 수 있습니다.
+                                                          노래, 춤, 연기 등 자신 있는 모든 모습을 담아 지원해주세요.</p></dd>
+        </dl>
+      </article><!--contentBox-->
+
+      <fieldset id="search">
+        <legend class="hidden">search</legend>
+        <label for="search"></label>
+        <input type="text" id="searchBox" name="search" value="" />
+        <button type="button" class="searchButton">검색</button>
+      </fieldset>
+    </section>
+<!--footer__________________________________________________________________________________-->
+    <div id="topButton">
+      <center><button type="button">top</button></center>
+    </div><!--topButton-->
+
+    <footer id="footBox">
+      <div id="footerBox">
+        <div class="copyright">
+          <p>2017 copyright ⓒ jyp corp. all right reserved</p>
+        </div><!--copy-->
+        <div class="policy">
+        <ul class="policyL">
+          <li class="personalP"><a href="#">개인정보처리방침</a></li>
+          <li class="officeP"><a href="#">내부정보관리규정</a></li>
+        </ul>
+      </div><!--policy-->
+      </div><!--footerBox-->
+    </footer>
+<!--footer________________________________________________________________________________-->
+  </div><!--wrap-->
+<script src="../js/src/faqSlide.js"></script>
+<script src="../js/src/gnb.js"></script>
+<script src="../js/src/topButton.js"></script>
+<script src="../js/src/height.js"></script>
+</body>
+</html>
