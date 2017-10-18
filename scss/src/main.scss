@@ -1,0 +1,24 @@
+
+// @import "../base/reset.scss";
+// @import "../base/nomalize.scss";
+@import "../base/mixin";
+@import "../base/var";
+  body{overflow-x:hidden;}
+//  wrap
+#wrap{@include size($h:100%); min-width:960px; margin:0 auto; position:relative;}//#wrap 
+form{@include size($h:100%);}
+  fieldset{border-style:none;}
+  h2{@include size($w:none, $h:100%); font-size:3.5em; float:left; margin-left:1.5em; color:$strong; float:left; }
+  h2:first-letter{text-transform:uppercase;}
+ .plusBox{display:inline-block; @include size($w:auto,$h:40px); color:$gray; margin-left:0.8em; font-size:3em;
+          &:hover{transform:scale(1.5); transition:all 300ms ease-in; color:$main;}}
+
+// layout
+
+@import "./part/headBox";
+@import "./part/adBanner";
+@import "./part/newsWrap";
+@import "./part/artistWrap";
+@import "./part/snsWrap";
+@import "./part/footBox";
+  

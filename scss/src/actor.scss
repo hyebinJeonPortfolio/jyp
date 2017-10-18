@@ -1,0 +1,49 @@
+//actor.scss
+@import "../base/mixin";
+@import "../base/var";
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+form{@include size($h:100%);}
+fieldset{border-style:none;}
+
+#wrap{@include size($w:100%, $h:auto); background-image:linear-gradient(#fff,80%,$main); min-width:960px; overflow-x:auto;}
+  #innerBox{@include size($w:100%, $c:#698); height:864px; height:54rem; height:45vw; @include link($f:"Full/actor/actor_Banner.png"); background-size:cover;
+          .actor{@include size($w:100%, $h:inherit); @include px($fp:48); text-align:center; text-transform:uppercase; letter-spacing:10px; color:#fff; font-family:'nanumGothic';}}//innerBox
+  #contentWrap{@include size($w:97%, $c:#fff); height:2800px; height:175rem; height:145.83vw; margin:0 auto; padding:15.626vw 0; box-sizing:border-box; 
+                margin-bottom:153.6px; margin-bottom:9.6rem; margin-bottom:8vw; margin-bottom:8vw;
+     #artistList{@include size($w:65%, $c:#ccc); height:2200px; height:137.5rem; height:114.58vw; margin:0 auto;
+      >li{@include size($w:50%, $h:25%); float:left; background-size:cover; transition:all 300ms ease-out; position:relative;
+        .topBorder{display:block; width:0; height:20px; top:0; left:0; background-color:rgba($main,0.8); position:absolute; z-index:100;  transition:all 0.3s ease-out;}
+        .rightBorder{display:block; width:20px; height:0; top:0; right:0; background-color:rgba($main,0.8); position:absolute; z-index:100; transition:all 0.3s ease-out 0.2s;}
+        .bottomBorder{display:block; width:0; height:20px; bottom:0; right:0; background-color:rgba($main,0.8); position:absolute; z-index:100;  transition:all 0.3s ease-out  0.2s;}
+        .leftBorder{display:block; width:20px; height:0; bottom:0; left:0; background-color:rgba($main,0.8); position:absolute; z-index:100;  transition:all 0.3s ease-out;}
+          &:hover p{opacity:0;}
+          &:hover .topBorder{width:100%; transition:all 0.3s ease-out;}
+          &:hover .rightBorder{height:100%; transition:all 0.3s ease-out 0.2s;}
+          &:hover .bottomBorder{width:100%; transition:all 0.3s ease-out;}
+          &:hover .leftBorder{height:100%; transition:all 0.3s ease-out 0.2s;}
+        a{display:block; width: 100%; height: 100%;
+          p{font-size:2.5vw; color:#fff; font-family:'nanumGothic'; font-weight:600; letter-spacing:0.3rem; text-align:center; text-transform:uppercase;}}}//li
+        .artist_1{@include link($f:"Full/actor/actor_01H.png");
+          &:hover{@include link($f:"Full/actor/actor_01.png");}}
+        .artist_2{@include link($f:"Full/actor/actor_02H.png");
+          &:hover{@include link($f:"Full/actor/actor_02.png");}}
+        .artist_3{@include link($f:"Full/actor/actor_03H.png");
+          &:hover{@include link($f:"Full/actor/actor_03.png");}}
+        .artist_4{@include link($f:"Full/actor/actor_04H.png");
+          &:hover{@include link($f:"Full/actor/actor_04.png");}}
+        .artist_5{@include link($f:"Full/actor/actor_05H.png");
+          &:hover{@include link($f:"Full/actor/actor_05.png");}}
+        .artist_6{@include link($f:"Full/actor/actor_06H.png");
+          &:hover{@include link($f:"Full/actor/actor_06.png");}}
+        .artist_7{@include link($f:"Full/actor/actor_07H.png");
+          &:hover{@include link($f:"Full/actor/actor_07.png");}}
+        .artist_8{@include link($f:"Full/actor/actor_08H.png");
+          &:hover{@include link($f:"Full/actor/actor_08.png");}}
+      }//artistList(ul)
+     }//contentWrap
+
+
+
+//layout++++++++++++++++++++++++++++++++++++++++++++
+@import "./part/headBox";
+@import "./part/footBox";

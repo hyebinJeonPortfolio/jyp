@@ -1,0 +1,70 @@
+//aboutJyp.scss
+@import "../base/mixin";
+@import "../base/var";
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+form{@include size($h:100%);}
+fieldset{border-style:none;}
+
+#wrap{@include size($w:100%, $h:auto); background-image:linear-gradient(#fff,80%,$main); min-width:960px; overflow-x:auto; font-family:'nanumGothic';}
+  #innerBox{@include size($w:100%, $c:#698); height:864px; height:54rem; height:45vw; @include link($f:"Full/aboutjypPage/innerbanner_02.png"); background-size:cover;
+          .aboutjyp{@include size($w:100%, $h:inherit); @include px($fp:48); text-align:center; text-transform:uppercase; letter-spacing:10px; color:#fff; font-family:'nanumGothic';
+          }}//innerBox
+  #contentWrap{@include size($w:97%, $c:#fff); @include px($hp:4400); margin:0 auto; box-sizing:border-box;
+                margin-bottom:153.6px; margin-bottom:9.6rem; margin-bottom:8vw; margin-bottom:8vw; padding:15.626vw 0; padding:300px 200px; padding:15.625vw 10.416vw; 
+                h3{color:$strong; @include px($fp:65, $mbp:130); text-transform:uppercase; font-weight:100;
+                &:after{content:" "; display:block; @include px($wp:86, $hp:4); background-color:$strong; margin-top:15px;}}//h3
+
+                  #jypInfo{@include px($wp:true, $hp:900, $mbp:300); transition:all 800ms ease-out;
+                    .whatjyp{@include size($w:50%); @include px($hp:660); float:left;
+                      >p{@include px($fp:22) font-family:'nanumGothic'; color:#333; line-height:1.6em;}}//wahtjyp
+                    .jyplogoBig{@include px($hp:660); padding:150px 100px; padding:7.8125vw 5.208vw; box-sizing:border-box; width:50%; float:right;  
+                      .jyplogoB{@include px($wp:512, $hp:264); background-size:contain; @include link($f:"Full/aboutjypPage/jyplogoBig.png");}}//jyplogoBig     
+                      }//jypInfo
+                      #jypInfo.default{transform:translateY(10rem); opacity:0;}
+             
+
+
+                  #contactUs{@include size($w:100%); @include px($hp:1500,$mbp:300); transition:all 1s ease-out;
+                      #mapWrap{@include size($w:100%); @include px($hp:760,$mbp:40);
+                        li{@include size($w:49%, $h:100%);}//li
+                        .jypcenter{float:left}
+                        .jyptcenter{float:right}
+                          dl{@include size($w:100%, $h:100%);
+                            dt{@include px($fp:32, $mbp:25); color:$main; font-weight:bold; text-align:center;}
+                            dt .jyp{text-transform:uppercase;}
+                            dt .center{text-transform:capitalize;}//dt
+                            .map{@include px($hp:500, $mbp:14); }
+                              .map_01{@include link($f:"Full/aboutjypPage/map_01.png"); background-size:contain;}
+                              .map_02{@include link($f:"Full/aboutjypPage/map_02.png"); background-size:contain;}//dd
+                            .address{@include px($fp:22); text-align:center; color:#333;}
+                            .address p{text-transform:uppercase; margin-right:1em; font-size:1.4em; display:inline-block; color:$main; text-transform:capitalize; font-weight:400;}
+                            }//dl
+                      }//mapWrap(ul)
+                     #contactTable{@include px($wp:860, $hp:250); margin:0 auto; 
+                      .table{width:100%; @include px($hp:250, $fp:22); 
+                        dl{@include size($w:100%, $h:25%);}
+                        dt{@include px($wp:429, $hp:60); color:#333; line-height:60px; line-height:3.125vw; float:left;  border-bottom:1px solid #0446B5; text-align:center; background-color: #EAF4FC;}
+                        .firstT{border-top:2px solid #0446B5;}
+                        dd{@include px($wp:429, $hp:60); color:#333; text-align:center; line-height:60px; line-height:3.125vw; float:left; border-bottom:1px solid #0446B5;}}
+                      }//contactTable
+                    }//contactUs
+                    #contactUs.default{transform:translateY(10rem); opacity:0;}
+
+                  #organization{@include px($hp:700); transition:all 1s ease-out;
+                    .organizationP{width:100%; height: 70%; @include link($f:"Full/aboutjypPage/organization.gif"); background-size:contain;}}//organization
+                    #organization.default{transform:translateY(10rem); opacity:0;}
+ 
+
+
+
+                }//contentWrap
+
+@media screen and (max-width: 1280px) {
+  #contentWrap #jypInfo .whatjyp p{font-size:0.9rem;}
+  #contentWrap #contactUs #mapWrap dl .address{font-size:0.9rem;}
+  #contentWrap #contactUs #contactTable .table dt{font-size:0.9rem;}
+  #contentWrap #contactUs #contactTable .table dd{font-size:0.9rem;}
+}
+//layout++++++++++++++++++++++++++++++++++++++++++++
+@import "./part/headBox";
+@import "./part/footBox";

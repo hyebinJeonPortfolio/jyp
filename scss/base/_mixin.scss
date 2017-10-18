@@ -1,0 +1,58 @@
+// mixin.scss
+
+@mixin size($w:100%, $h:none, $c:none){
+  width:$w; height:$h; background-color:#{$c};
+}
+
+@mixin link($u:$imgF, $f:none, $p:center){
+        background-image: url($u + $f);
+        background-repeat: no-repeat; 
+        background-position:$p;
+        overflow:hidden;}
+
+// @mixin pxW($w:width, $px:none){
+//   #{$w}:$px +px;
+//   #{$w}:($px / 16)+rem;
+//   #{$w}:($px / 1920 * 100)+vw;
+// }
+// @mixin pxH($h:height, $px:none){
+//   #{$h}:$px +px;
+//   #{$h}:($px / 16)+rem;
+//   #{$h}:($px / 1920 * 100)+vw;
+// }
+
+@mixin px($w:width, $wp:none, $h:height, $hp:none, $f:font-size, $fp:none, $p:padding, $pp:none, $mb:margin-bottom, $mbp:none){
+  @if $wp == none{}
+  @else if $wp == true{
+    width:100%;
+  }  @else{
+  #{$w}:$wp + px;
+  #{$w}:($wp / 16)+rem;
+  #{$w}:($wp / 1920 * 100)+vw;
+  }
+ @if $hp == none{}
+ @else {
+  #{$h}:$hp +px;
+  #{$h}:($hp / 16)+rem;
+  #{$h}:($hp / 1920 * 100)+vw;
+  }
+@if $fp == none{}
+@else {
+  #{$f}:$fp +px;
+  #{$f}:($fp / 16)+rem;
+  #{$f}:($fp / 1920 * 100)+vw;
+}
+@if $pp == none{}
+@else {
+  #{$p}:$pp +px;
+  #{$p}:($pp / 16)+rem;
+  #{$p}:($pp / 1920 * 100)+vw;//padding  
+}
+@if $mbp == none{}
+@else {
+  #{$mb}:$mbp +px;
+  #{$mb}:($mbp / 16)+rem;
+  #{$mb}:($mbp / 1920 * 100)+vw; //marginBottom
+}
+}//
+

@@ -1,0 +1,42 @@
+//faq.scss
+@import "../base/mixin";
+@import "../base/var";
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+form{@include size($h:100%);}
+fieldset{border-style:none;}
+
+#wrap{@include size($w:100%, $h:auto); background-image:linear-gradient(#fff,80%,$main); min-width:960px; overflow-x:auto; font-family:'nanumGothic';}
+  #innerBox{@include size($w:100%, $c:#698); height:864px; height:54rem; height:45vw; @include link($f:"Full/faq/innerBanner.png"); background-size:cover;
+          .faq{@include size($w:100%, $h:inherit); @include px($fp:48); text-align:center; text-transform:uppercase; letter-spacing:10px; color:#fff; font-family:'nanumGothic';
+          }}//innerBox
+  #contentWrap{width: 97%; background-color: #fff; @include px($hp:1700); margin:0 auto; box-sizing:border-box;
+              margin-bottom:153.6px; margin-bottom:9.6rem; margin-bottom:8vw; margin-bottom:8vw; padding:15.626vw 0; padding:300px 200px; padding:15.625vw 10.416vw;
+              h3{color:$strong; @include px($fp:40, $mbp:30); text-transform:uppercase; font-weight:400;}
+              #contentBox{@include px($wp:1400); height:auto; min-height:80px; margin:0 auto;
+                .qtitle{@include px($wp:1400,$hp:80); border-top:solid #ccc 1px;
+                    .no{float:left; @include px($wp:200,$fp:24); line-height:80px; line-height:4.1666vw; color:#333; text-align:center; text-transform:uppercase;}
+                    .title{float:right; @include px($wp:1200,$fp:24);color:#333; line-height:80px; line-height:4.1666vw; text-transform:uppercase; text-align:center;}
+                }//qtitle
+                dl{@include px($wp:1400); height:auto;
+                  dt{@include px($wp:1400,$hp:80); cursor:pointer; padding-top:28px; padding-top:1.4583vw; box-sizing:border-box;  border-top:solid #ccc 1px;
+                    .dtNo{float:left; @include px($wp:200,$fp:24); color:#333; text-align:center;}
+                    .qButton{float:left; @include px($wp:30,$hp:28); margin-right:15px; margin-right:0.78125vw; background-size:contain; @include link($f:"Full/faq/q.png"); }
+                    .f{float:left; @include px($wp:1150,$fp:24); color:#333; }
+                    i{@include px($fp:28); transition:all 100ms ease-out; float:right; margin-right:40px; margin-right:2.083333vw;}
+                    }//dt
+                  .view{transform:rotate(180deg);}
+                  dd{@include px($wp:1400,$fp:24); color:#333;  height:auto;
+                     padding:28px 100px 28px 200px; padding:1.4583vw 5.20833vw 1.4583vw 10.416666vw; box-sizing:border-box; 
+                      border-top:solid #999 2px; background-color: #ddd;
+                    .aButton{float:left; @include px($wp:30,$hp:28); margin-right:15px; margin-right:0.78125vw; background-size:contain; @include link($f:"Full/faq/a.png");}
+                  }//dd
+                }//dl
+              }//contentBox
+            fieldset{@include px($wp:370,$hp:50,$fp:24); margin:0 auto; margin-top:100px; }
+            input[type="text"]{@include px($wp:300,$hp:49,$fp:18); color:#333; box-sizing:border-box; margin:0 auto;}
+            .searchButton{@include px($wp:60,$hp:49,$fp:18); color:#fff;background-color: #333;}
+            }//contentWrap        
+
+//layout++++++++++++++++++++++++++++++++++++++++++++
+@import "./part/headBox";
+@import "./part/footBox";

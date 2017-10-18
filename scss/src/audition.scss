@@ -1,0 +1,104 @@
+//audition.scss
+@import "../base/_mixin";
+@import "../base/_var";
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+form{@include size($h:100%);}
+fieldset{border-style:none;}
+
+#wrap{@include size($w:100%, $h:auto); background-image:linear-gradient(#fff,80%,$main); min-width:960px; overflow-x:auto; font-family:'nanumGothic';}
+  #innerBox{@include size($w:100%, $c:#698); height:864px; height:54rem; height:45vw; @include link($f:"Full/audition/banner_audition.png"); background-size:cover;
+          .aboutjyp{@include size($w:100%, $h:inherit); @include px($fp:48); text-align:center; text-transform:uppercase; letter-spacing:10px; color:#fff; font-family:'nanumGothic';
+          }}//innerBox
+  #contentWrap{@include size($w:97%, $c:#fff); margin:0 auto; @include px($hp:4000,$mbp:140); box-sizing:border-box;
+                padding:15.626vw 0; padding:300px 200px; padding:15.625vw 10.416vw; 
+                h3{color:$strong; @include px($fp:65, $mbp:130); text-align:center; text-transform:uppercase; font-weight:400;
+                &:after{content:" "; display:block; @include px($wp:86, $hp:4); margin:0 auto; background-color:$strong; margin-top:35px;}}//h3
+                .intro{color:#333; @include px($fp:22, $mbp:230); text-align:center; line-height:1.6em; 
+                  &:after{display:none;}}
+
+                .intro{transition:all 1s ease-out;}
+                .intro.default{transform:translateY(10rem); opacity:0;}
+                
+                #centerAudition{@include px($wp:1420, $hp:1000,$mbp:300); transition:all 1s ease-out;
+                    p.centerIntro{@include px($fp:27,$mbp:100); text-align:center; color:$main;
+                      span{color:#ccc; @include px($fp:35); margin-right:36px;}}//p
+                    #centerAdl{@include px($wp:1400, $hp:500); margin:0 auto;}
+                      .title{color:$strong; @include px($hp:80,$fp:28);text-transform:uppercase; font-weight:600; width:40%; float:left;}
+                      .adcontent{color:#333; @include px($hp:80,$fp:22); color:#333; width:60%; float:right;}
+                      p{@include px($fp:22); color:#333;}
+                      .snsUl{@include px($hp:30, $wp:131);
+                            li{@include px($hp:30, $wp:30); margin-right:20px; margin-right:1.04166vw; float:left;
+                              a{@include px($hp:30, $wp:30); display:block;}}
+                            .twitter{@include link($f:"Full/audition/twitter.png");
+                              &:hover{@include link($f:"Full/audition/twitterH.png");}}
+                            .facebook{@include link($f:"Full/audition/faceBook.png");
+                              &:hover{@include link($f:"Full/audition/faceBookH.png");}}
+                            .instagram{@include link($f:"Full/audition/instagram.png");
+                              &:hover{@include link($f:"Full/audition/instagramH.png");}}}//snsUl
+                }//centeraudition
+                #centerAudition{transition:all 1s ease-out;}
+                #centerAudition.default{transform:translateY(10rem); opacity:0;}
+
+
+                #onlineAudition{@include px($hp:1200,$mbp:200); transition:all 1s ease-out;
+                   p.centerIntro{@include px($fp:27,$mbp:100); text-align:center; color:$main;
+                      span{color:#ccc; @include px($fp:35); margin-right:36px;}}//p
+                    #onlineAdl{@include px($wp:1420); margin:0 auto;}
+                      .title{color:$strong; @include px($hp:80,$fp:28);text-transform:uppercase; font-weight:600; width:40%; float:left;}
+                      .title_02{color:$strong; @include px($hp:80,$fp:28,$mbp:10); text-transform:uppercase; font-weight:600; width:100%; float:left;}
+                      .adcontent{color:#333; @include px($hp:80,$fp:22); color:#333; width:60%; float:right;}
+                      .adcontent_02{@include px($wp:1420,$mbp:50); height:280px; float:left; position:relative;
+                        .field{width: 100%; height: 280px; height:14.58333vw; 
+                          li{@include px($wp:278); position:relative; height:100%; margin-right:7px; margin-right:0.3645vw; float:left; background-size:contain;
+                            >p{text-align:center; width: 100%; position:absolute; left:0; bottom:16%; @include px($fp:22); color:#333;}}}//.field
+                        .field li:nth-child(1){@include link($f:"Full/audition/field_01.png");}
+                        .field li:nth-child(2){@include link($f:"Full/audition/field_02.png");}
+                        .field li:nth-child(3){@include link($f:"Full/audition/field_03.png");}
+                        .field li:nth-child(4){@include link($f:"Full/audition/field_04.png");}
+                        .field li:nth-child(5){@include link($f:"Full/audition/field_05.png");}
+                        .applyway{width: 100%; height: 280px; height:14.58333vw;
+                          >li{@include px($wp:350); position:relative; margin-right:6px; margin-right:0.3125vw; height:100%; float:left; background-size:contain;
+                          >p{text-align:center; position:absolute; width: 100%; left:0; bottom:16%; @include px($fp:22); color:#333;}}}
+                        .applyway>li:nth-child(1){@include link($f:"Full/audition/applyway_01.png");}
+                        .applyway>li:nth-child(2){@include link($f:"Full/audition/applyway_02.png");}
+                        .applyway>li:nth-child(3){@include link($f:"Full/audition/applyway_03.png");}
+                        .applyway>li:nth-child(4){@include link($f:"Full/audition/applyway_04.png");}
+                        .arrow{@include px($hp:100,$wp:820); position:absolute; left:21%; top:5vw;  z-index:100;
+                          li{@include px($hp:100,$wp:100);float:left; @include link($f:"Full/audition/arrow.png"); background-size:contain;}
+                          .arrow_01{margin-right:260px; margin-right:13.541vw;}
+                          .arrow_02{margin-right:260px; margin-right:13.541vw;}
+                          }//arrow 
+                      }//adcontent_02
+                }//onlineaudition
+                #onlineAudition{transition:all 1.1s ease-out;}
+                #onlineAudition.default{transform:translateY(10rem); opacity:0;}
+
+                #apply{display:block; @include px($wp:500, $hp:180, $fp:40); transition:all 500ms ease-out; color:#fff; background-color:$main; margin:0 auto;
+                  margin-top:200px; margin-top:10.41vw;
+                  &:hover{background-color: #333;}}
+                #apply.default{transform:translateY(5rem); opacity:0;}
+
+                #faq{display:block; @include px($wp:500, $hp:180, $fp:40); transition:all 500ms ease-out; color:$main; border:solid 1px $main; 
+                  box-sizing:border-box; margin:0 auto; text-align:center; line-height:180px; line-height:9.375vw;
+                  margin-top:50px; margin-top:2.6041vw; text-transform:uppercase;
+                  &:hover{background-color: #333; border:solid 1px #333;}
+                  }//faq
+                  #faq.default{transform:translateY(5rem); opacity:0;}
+                }//contentWrap
+
+@media screen and (max-width: 1280px) {
+  #contentWrap{height:2350px; 
+    .intro{font-size: 1rem;} 
+    #centerAudition .title{ @include px($fp:40);} 
+    #centerAudition .adcontent{font-size:1rem;}
+    #centerAudition p{font-size:1rem;}
+    #onlineAudition .title{@include px($fp:40);}
+    #onlineAudition .title_02{@include px($fp:40);}
+    #onlineAudition .adcontent{font-size:1rem;}
+    #onlineAudition .adcontent_02 .field li p{font-size:1rem;}
+    #onlineAudition .adcontent_02 .applyway li p{font-size:1rem;}
+}//contentWrap
+}//mediascreen
+//layout++++++++++++++++++++++++++++++++++++++++++++
+@import "./part/headBox";
+@import "./part/footBox";
