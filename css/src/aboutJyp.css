@@ -1,0 +1,607 @@
+form {
+  width: 100%;
+  height: 100%;
+  background-color: none; }
+
+fieldset {
+  border-style: none; }
+
+#wrap {
+  width: 100%;
+  height: auto;
+  background-color: none;
+  background-image: linear-gradient(#fff, 80%, #00b4e7);
+  min-width: 960px;
+  overflow-x: auto;
+  font-family: 'nanumGothic'; }
+
+#innerBox {
+  width: 100%;
+  height: none;
+  background-color: #698;
+  height: 864px;
+  height: 54rem;
+  height: 45vw;
+  background-image: url("../../img/Full/aboutjypPage/innerbanner_02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  background-size: cover; }
+  #innerBox .aboutjyp {
+    width: 100%;
+    height: inherit;
+    background-color: none;
+    font-size: 48px;
+    font-size: 3rem;
+    font-size: 2.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #fff;
+    font-family: 'nanumGothic'; }
+
+#contentWrap {
+  width: 97%;
+  height: none;
+  background-color: #fff;
+  height: 4400px;
+  height: 275rem;
+  height: 229.16667vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 153.6px;
+  margin-bottom: 9.6rem;
+  margin-bottom: 8vw;
+  margin-bottom: 8vw;
+  padding: 15.626vw 0;
+  padding: 300px 200px;
+  padding: 15.625vw 10.416vw; }
+  #contentWrap h3 {
+    color: #00a0e9;
+    font-size: 65px;
+    font-size: 4.0625rem;
+    font-size: 3.38542vw;
+    margin-bottom: 130px;
+    margin-bottom: 8.125rem;
+    margin-bottom: 6.77083vw;
+    text-transform: uppercase;
+    font-weight: 100; }
+    #contentWrap h3:after {
+      content: " ";
+      display: block;
+      width: 86px;
+      width: 5.375rem;
+      width: 4.47917vw;
+      height: 4px;
+      height: 0.25rem;
+      height: 0.20833vw;
+      background-color: #00a0e9;
+      margin-top: 15px; }
+  #contentWrap #jypInfo {
+    width: 100%;
+    height: 900px;
+    height: 56.25rem;
+    height: 46.875vw;
+    margin-bottom: 300px;
+    margin-bottom: 18.75rem;
+    margin-bottom: 15.625vw;
+    transition: all 800ms ease-out; }
+    #contentWrap #jypInfo .whatjyp {
+      width: 50%;
+      height: none;
+      background-color: none;
+      height: 660px;
+      height: 41.25rem;
+      height: 34.375vw;
+      float: left; }
+      #contentWrap #jypInfo .whatjyp > p {
+        font-size: 22px;
+        font-size: 1.375rem;
+        font-size: 1.14583vw;
+        font-family: 'nanumGothic';
+        color: #333;
+        line-height: 1.6em; }
+    #contentWrap #jypInfo .jyplogoBig {
+      height: 660px;
+      height: 41.25rem;
+      height: 34.375vw;
+      padding: 150px 100px;
+      padding: 7.8125vw 5.208vw;
+      box-sizing: border-box;
+      width: 50%;
+      float: right; }
+      #contentWrap #jypInfo .jyplogoBig .jyplogoB {
+        width: 512px;
+        width: 32rem;
+        width: 26.66667vw;
+        height: 264px;
+        height: 16.5rem;
+        height: 13.75vw;
+        background-size: contain;
+        background-image: url("../../img/Full/aboutjypPage/jyplogoBig.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden; }
+  #contentWrap #jypInfo.default {
+    transform: translateY(10rem);
+    opacity: 0; }
+  #contentWrap #contactUs {
+    width: 100%;
+    height: none;
+    background-color: none;
+    height: 1500px;
+    height: 93.75rem;
+    height: 78.125vw;
+    margin-bottom: 300px;
+    margin-bottom: 18.75rem;
+    margin-bottom: 15.625vw;
+    transition: all 1s ease-out; }
+    #contentWrap #contactUs #mapWrap {
+      width: 100%;
+      height: none;
+      background-color: none;
+      height: 760px;
+      height: 47.5rem;
+      height: 39.58333vw;
+      margin-bottom: 40px;
+      margin-bottom: 2.5rem;
+      margin-bottom: 2.08333vw; }
+      #contentWrap #contactUs #mapWrap li {
+        width: 49%;
+        height: 100%;
+        background-color: none; }
+      #contentWrap #contactUs #mapWrap .jypcenter {
+        float: left; }
+      #contentWrap #contactUs #mapWrap .jyptcenter {
+        float: right; }
+      #contentWrap #contactUs #mapWrap dl {
+        width: 100%;
+        height: 100%;
+        background-color: none; }
+        #contentWrap #contactUs #mapWrap dl dt {
+          font-size: 32px;
+          font-size: 2rem;
+          font-size: 1.66667vw;
+          margin-bottom: 25px;
+          margin-bottom: 1.5625rem;
+          margin-bottom: 1.30208vw;
+          color: #00b4e7;
+          font-weight: bold;
+          text-align: center; }
+        #contentWrap #contactUs #mapWrap dl dt .jyp {
+          text-transform: uppercase; }
+        #contentWrap #contactUs #mapWrap dl dt .center {
+          text-transform: capitalize; }
+        #contentWrap #contactUs #mapWrap dl .map {
+          height: 500px;
+          height: 31.25rem;
+          height: 26.04167vw;
+          margin-bottom: 14px;
+          margin-bottom: 0.875rem;
+          margin-bottom: 0.72917vw; }
+        #contentWrap #contactUs #mapWrap dl .map_01 {
+          background-image: url("../../img/Full/aboutjypPage/map_01.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          overflow: hidden;
+          background-size: contain; }
+        #contentWrap #contactUs #mapWrap dl .map_02 {
+          background-image: url("../../img/Full/aboutjypPage/map_02.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          overflow: hidden;
+          background-size: contain; }
+        #contentWrap #contactUs #mapWrap dl .address {
+          font-size: 22px;
+          font-size: 1.375rem;
+          font-size: 1.14583vw;
+          text-align: center;
+          color: #333; }
+        #contentWrap #contactUs #mapWrap dl .address p {
+          text-transform: uppercase;
+          margin-right: 1em;
+          font-size: 1.4em;
+          display: inline-block;
+          color: #00b4e7;
+          text-transform: capitalize;
+          font-weight: 400; }
+    #contentWrap #contactUs #contactTable {
+      width: 860px;
+      width: 53.75rem;
+      width: 44.79167vw;
+      height: 250px;
+      height: 15.625rem;
+      height: 13.02083vw;
+      margin: 0 auto; }
+      #contentWrap #contactUs #contactTable .table {
+        width: 100%;
+        height: 250px;
+        height: 15.625rem;
+        height: 13.02083vw;
+        font-size: 22px;
+        font-size: 1.375rem;
+        font-size: 1.14583vw; }
+        #contentWrap #contactUs #contactTable .table dl {
+          width: 100%;
+          height: 25%;
+          background-color: none; }
+        #contentWrap #contactUs #contactTable .table dt {
+          width: 429px;
+          width: 26.8125rem;
+          width: 22.34375vw;
+          height: 60px;
+          height: 3.75rem;
+          height: 3.125vw;
+          color: #333;
+          line-height: 60px;
+          line-height: 3.125vw;
+          float: left;
+          border-bottom: 1px solid #0446B5;
+          text-align: center;
+          background-color: #EAF4FC; }
+        #contentWrap #contactUs #contactTable .table .firstT {
+          border-top: 2px solid #0446B5; }
+        #contentWrap #contactUs #contactTable .table dd {
+          width: 429px;
+          width: 26.8125rem;
+          width: 22.34375vw;
+          height: 60px;
+          height: 3.75rem;
+          height: 3.125vw;
+          color: #333;
+          text-align: center;
+          line-height: 60px;
+          line-height: 3.125vw;
+          float: left;
+          border-bottom: 1px solid #0446B5; }
+  #contentWrap #contactUs.default {
+    transform: translateY(10rem);
+    opacity: 0; }
+  #contentWrap #organization {
+    height: 700px;
+    height: 43.75rem;
+    height: 36.45833vw;
+    transition: all 1s ease-out; }
+    #contentWrap #organization .organizationP {
+      width: 100%;
+      height: 70%;
+      background-image: url("../../img/Full/aboutjypPage/organization.gif");
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: hidden;
+      background-size: contain; }
+  #contentWrap #organization.default {
+    transform: translateY(10rem);
+    opacity: 0; }
+
+@media screen and (max-width: 1280px) {
+  #contentWrap #jypInfo .whatjyp p {
+    font-size: 0.9rem; }
+  #contentWrap #contactUs #mapWrap dl .address {
+    font-size: 0.9rem; }
+  #contentWrap #contactUs #contactTable .table dt {
+    font-size: 0.9rem; }
+  #contentWrap #contactUs #contactTable .table dd {
+    font-size: 0.9rem; } }
+
+#headBox {
+  width: 100%;
+  height: 120px;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  z-index: 100;
+  padding: 2.5em 3em 0;
+  box-sizing: border-box; }
+  #headBox h1 {
+    width: 9.8vw;
+    height: 3.64vw;
+    background-color: none;
+    background-size: contain;
+    background-image: url("../../img/Full/jypLogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    float: left; }
+    #headBox h1 > a {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-color: none;
+      cursor: pointer; }
+  #headBox #gnbBoox {
+    width: 50px;
+    height: 30px;
+    background-color: none;
+    float: right;
+    right: 3em;
+    position: fixed;
+    z-index: 300;
+    margin-top: 10px; }
+    #headBox #gnbBoox .gnbLogo {
+      width: 50px;
+      height: 5px;
+      background-color: #00a0e9;
+      position: relative; }
+      #headBox #gnbBoox .gnbLogo:before {
+        content: " ";
+        display: block;
+        width: 50px;
+        height: 5px;
+        background-color: #00a0e9;
+        position: absolute;
+        top: 10px; }
+      #headBox #gnbBoox .gnbLogo:after {
+        content: " ";
+        display: block;
+        width: 50px;
+        height: 5px;
+        background-color: #00a0e9;
+        position: absolute;
+        top: -10px; }
+  #headBox #gnbBox {
+    width: 100vw;
+    display: none;
+    min-width: 960px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(to right, #00b4e7, #fff);
+    opacity: 0.9;
+    position: fixed;
+    z-index: 100; }
+    #headBox #gnbBox .photoWrap {
+      width: 50%;
+      height: 100%;
+      background-color: none;
+      float: left; }
+      #headBox #gnbBox .photoWrap .gnbpBox {
+        width: 83%;
+        height: 40%;
+        background-color: #ca8;
+        background-size: cover;
+        margin-top: 23%;
+        margin-bottom: 3%; }
+      #headBox #gnbBox .photoWrap .companyP {
+        background-image: url("../../img/Full/gnb/aboutjyp_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        transition: all 300ms ease-in; }
+      #headBox #gnbBox .photoWrap .artistP {
+        background-image: url("../../img/Full/gnb/artist_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        transition: all 300ms ease-in; }
+      #headBox #gnbBox .photoWrap .actorP {
+        background-image: url("../../img/Full/gnb/actor_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        transition: all 300ms ease-in; }
+      #headBox #gnbBox .photoWrap .auditionP {
+        background-image: url("../../img/Full/gnb/audition_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        transition: all 300ms ease-in; }
+      #headBox #gnbBox .photoWrap .nomal {
+        background-image: url("../../img/Full/gnb/nomal.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        transition: all 300ms ease-in; }
+      #headBox #gnbBox .photoWrap .fLBox {
+        width: 40%;
+        height: 30px;
+        background-color: none;
+        margin: 0 18%;
+        margin-bottom: 2%; }
+        #headBox #gnbBox .photoWrap .fLBox .flList {
+          width: 100%;
+          height: 30px;
+          background-color: none; }
+          #headBox #gnbBox .photoWrap .fLBox .flList > li {
+            width: 100%;
+            height: 100%;
+            background-color: none;
+            float: left; }
+          #headBox #gnbBox .photoWrap .fLBox .flList .familysite {
+            width: 57%;
+            margin-right: 3%; }
+            #headBox #gnbBox .photoWrap .fLBox .flList .familysite select {
+              width: 100%;
+              height: 100%;
+              text-transform: uppercase; }
+          #headBox #gnbBox .photoWrap .fLBox .flList .language {
+            width: 40%;
+            background-color: #715; }
+            #headBox #gnbBox .photoWrap .fLBox .flList .language select {
+              width: 100%;
+              height: 100%;
+              text-transform: uppercase; }
+      #headBox #gnbBox .photoWrap .gsnsBox {
+        width: 110px;
+        height: 30px;
+        background-color: none;
+        margin: 0 30%; }
+        #headBox #gnbBox .photoWrap .gsnsBox .gsnsList {
+          width: 100%;
+          height: 100%;
+          background-color: none; }
+          #headBox #gnbBox .photoWrap .gsnsBox .gsnsList > li {
+            width: 30px;
+            height: 100%;
+            background-color: none;
+            margin-right: 10px;
+            float: left;
+            background-size: cover; }
+            #headBox #gnbBox .photoWrap .gsnsBox .gsnsList > li a {
+              width: 100%;
+              height: 100%;
+              background-color: none;
+              display: block; }
+          #headBox #gnbBox .photoWrap .gsnsBox .gsnsList .twitter {
+            background-image: url("../../img/Full/gnb/twitter.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden; }
+          #headBox #gnbBox .photoWrap .gsnsBox .gsnsList .facebook {
+            background-image: url("../../img/Full/gnb/facebook.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden; }
+          #headBox #gnbBox .photoWrap .gsnsBox .gsnsList .instagram {
+            background-image: url("../../img/Full/gnb/instagram.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden; }
+    #headBox #gnbBox .listWrap {
+      width: 50%;
+      height: 100%;
+      background-color: none;
+      float: right; }
+      #headBox #gnbBox .listWrap .listBox {
+        width: 65%;
+        height: 75%;
+        background-color: none;
+        margin: 13% 13%; }
+        #headBox #gnbBox .listWrap .listBox .gnblist {
+          width: 100%;
+          height: 100%;
+          background-color: none; }
+          #headBox #gnbBox .listWrap .listBox .gnblist > li {
+            width: 100%;
+            height: 25%;
+            background-color: none;
+            color: #333;
+            text-align: center;
+            font-family: 'Poiret One';
+            font-size: 96px;
+            font-size: 6rem;
+            font-size: 5.05263vw; }
+            #headBox #gnbBox .listWrap .listBox .gnblist > li:first-letter {
+              text-transform: uppercase; }
+            #headBox #gnbBox .listWrap .listBox .gnblist > li.company:hover > .companyMore {
+              display: block; }
+            #headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore {
+              width: 25vw;
+              height: 25%;
+              background-color: none;
+              display: none;
+              margin-left: 0.8em;
+              padding: 1.5% 0;
+              box-sizing: border-box; }
+              #headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore > li {
+                width: 21%;
+                height: 100%;
+                background-color: none;
+                margin-right: 0.3em;
+                font-size: 1.2vw;
+                float: left;
+                font-family: 'nanumGothic';
+                text-align: center;
+                text-transform: uppercase; }
+              #headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore .notice {
+                width: 18%; }
+              #headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore .aboutJyp {
+                width: 26%; }
+              #headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore .ir {
+                width: 6%; }
+            #headBox #gnbBox .listWrap .listBox .gnblist > li.audition:hover > .auditionMore {
+              display: block;
+              transition: all 900ms; }
+            #headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore {
+              width: 25vw;
+              height: 25%;
+              background-color: none;
+              display: none;
+              margin-left: 0.8em;
+              padding: 1.5% 3%;
+              box-sizing: border-box; }
+              #headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore > li {
+                width: 15%;
+                height: 100%;
+                background-color: none;
+                margin-right: 0.5em;
+                font-size: 1.2vw;
+                float: left;
+                font-family: 'nanumGothic';
+                text-align: center;
+                text-transform: uppercase; }
+              #headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore .auditionLi {
+                width: 25%;
+                margin-left: calc(24% - 0.3em); }
+              #headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore .faq {
+                width: 12%; }
+
+#topButton {
+  width: 80px;
+  width: 5rem;
+  height: 80px;
+  height: 5rem;
+  margin: 0 auto;
+  margin-bottom: 15em; }
+  #topButton button {
+    width: 80px;
+    width: 5rem;
+    height: 80px;
+    height: 5rem;
+    background-color: #fff;
+    border: solid #333 1px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333; }
+    #topButton button:hover {
+      background-color: #333;
+      color: #fff; }
+
+#footBox {
+  width: 100%;
+  height: auto;
+  background-color: #171717;
+  font-family: 'nanumGothic'; }
+  #footBox::after {
+    content: " ";
+    display: block;
+    clear: both; }
+  #footBox #footerBox {
+    width: 960px;
+    height: auto;
+    background-color: none;
+    margin: 0 auto; }
+    #footBox #footerBox .copyright {
+      width: 50%;
+      height: auto;
+      background-color: none;
+      padding: 1.5%;
+      box-sizing: border-box;
+      float: left; }
+      #footBox #footerBox .copyright > p {
+        width: 100%;
+        height: auto;
+        background-color: none;
+        font-size: 1em;
+        color: #fff;
+        text-transform: uppercase; }
+    #footBox #footerBox .policy {
+      width: 50%;
+      height: auto;
+      background-color: none;
+      float: right; }
+      #footBox #footerBox .policy > .policyL {
+        width: 60%;
+        height: auto;
+        background-color: none;
+        float: right;
+        padding: 2.8% 0;
+        box-sizing: border-box; }
+        #footBox #footerBox .policy > .policyL > li {
+          width: 50%;
+          height: none;
+          background-color: none;
+          float: left;
+          color: #fff; }

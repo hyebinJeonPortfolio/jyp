@@ -1,0 +1,252 @@
+form { width: 100%; height: 100%; background-color: none; }
+
+fieldset { border-style: none; }
+
+#wrap { width: 100%; height: auto; background-color: none; background-image: linear-gradient(#fff, 80%, #00b4e7); min-width: 960px; overflow-x: auto; font-family: 'nanumGothic'; }
+
+#innerBox { width: 100%; height: none; background-color: #698; height: 864px; height: 54rem; height: 45vw; background-image: url("../../img/Full/audition/banner_audition.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; background-size: cover; }
+
+#innerBox .aboutjyp { width: 100%; height: inherit; background-color: none; font-size: 48px; font-size: 3rem; font-size: 2.5vw; text-align: center; text-transform: uppercase; letter-spacing: 10px; color: #fff; font-family: 'nanumGothic'; }
+
+#contentWrap { width: 97%; height: none; background-color: #fff; margin: 0 auto; height: 4000px; height: 250rem; height: 208.33333vw; margin-bottom: 140px; margin-bottom: 8.75rem; margin-bottom: 7.29167vw; box-sizing: border-box; padding: 15.626vw 0; padding: 300px 200px; padding: 15.625vw 10.416vw; }
+
+#contentWrap h3 { color: #00a0e9; font-size: 65px; font-size: 4.0625rem; font-size: 3.38542vw; margin-bottom: 130px; margin-bottom: 8.125rem; margin-bottom: 6.77083vw; text-align: center; text-transform: uppercase; font-weight: 400; }
+
+#contentWrap h3:after { content: " "; display: block; width: 86px; width: 5.375rem; width: 4.47917vw; height: 4px; height: 0.25rem; height: 0.20833vw; margin: 0 auto; background-color: #00a0e9; margin-top: 35px; }
+
+#contentWrap .intro { color: #333; font-size: 22px; font-size: 1.375rem; font-size: 1.14583vw; margin-bottom: 230px; margin-bottom: 14.375rem; margin-bottom: 11.97917vw; text-align: center; line-height: 1.6em; }
+
+#contentWrap .intro:after { display: none; }
+
+#contentWrap .intro { transition: all 1s ease-out; }
+
+#contentWrap .intro.default { transform: translateY(10rem); opacity: 0; }
+
+#contentWrap #centerAudition { width: 1420px; width: 88.75rem; width: 73.95833vw; height: 1000px; height: 62.5rem; height: 52.08333vw; margin-bottom: 300px; margin-bottom: 18.75rem; margin-bottom: 15.625vw; transition: all 1s ease-out; }
+
+#contentWrap #centerAudition p.centerIntro { font-size: 27px; font-size: 1.6875rem; font-size: 1.40625vw; margin-bottom: 100px; margin-bottom: 6.25rem; margin-bottom: 5.20833vw; text-align: center; color: #00b4e7; }
+
+#contentWrap #centerAudition p.centerIntro span { color: #ccc; font-size: 35px; font-size: 2.1875rem; font-size: 1.82292vw; margin-right: 36px; }
+
+#contentWrap #centerAudition #centerAdl { width: 1400px; width: 87.5rem; width: 72.91667vw; height: 500px; height: 31.25rem; height: 26.04167vw; margin: 0 auto; }
+
+#contentWrap #centerAudition .title { color: #00a0e9; height: 80px; height: 5rem; height: 4.16667vw; font-size: 28px; font-size: 1.75rem; font-size: 1.45833vw; text-transform: uppercase; font-weight: 600; width: 40%; float: left; }
+
+#contentWrap #centerAudition .adcontent { color: #333; height: 80px; height: 5rem; height: 4.16667vw; font-size: 22px; font-size: 1.375rem; font-size: 1.14583vw; color: #333; width: 60%; float: right; }
+
+#contentWrap #centerAudition p { font-size: 22px; font-size: 1.375rem; font-size: 1.14583vw; color: #333; }
+
+#contentWrap #centerAudition .snsUl { width: 131px; width: 8.1875rem; width: 6.82292vw; height: 30px; height: 1.875rem; height: 1.5625vw; }
+
+#contentWrap #centerAudition .snsUl li { width: 30px; width: 1.875rem; width: 1.5625vw; height: 30px; height: 1.875rem; height: 1.5625vw; margin-right: 20px; margin-right: 1.04166vw; float: left; }
+
+#contentWrap #centerAudition .snsUl li a { width: 30px; width: 1.875rem; width: 1.5625vw; height: 30px; height: 1.875rem; height: 1.5625vw; display: block; }
+
+#contentWrap #centerAudition .snsUl .twitter { background-image: url("../../img/Full/audition/twitter.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #centerAudition .snsUl .twitter:hover { background-image: url("../../img/Full/audition/twitterH.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #centerAudition .snsUl .facebook { background-image: url("../../img/Full/audition/faceBook.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #centerAudition .snsUl .facebook:hover { background-image: url("../../img/Full/audition/faceBookH.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #centerAudition .snsUl .instagram { background-image: url("../../img/Full/audition/instagram.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #centerAudition .snsUl .instagram:hover { background-image: url("../../img/Full/audition/instagramH.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #centerAudition { transition: all 1s ease-out; }
+
+#contentWrap #centerAudition.default { transform: translateY(10rem); opacity: 0; }
+
+#contentWrap #onlineAudition { height: 1200px; height: 75rem; height: 62.5vw; margin-bottom: 200px; margin-bottom: 12.5rem; margin-bottom: 10.41667vw; transition: all 1s ease-out; }
+
+#contentWrap #onlineAudition p.centerIntro { font-size: 27px; font-size: 1.6875rem; font-size: 1.40625vw; margin-bottom: 100px; margin-bottom: 6.25rem; margin-bottom: 5.20833vw; text-align: center; color: #00b4e7; }
+
+#contentWrap #onlineAudition p.centerIntro span { color: #ccc; font-size: 35px; font-size: 2.1875rem; font-size: 1.82292vw; margin-right: 36px; }
+
+#contentWrap #onlineAudition #onlineAdl { width: 1420px; width: 88.75rem; width: 73.95833vw; margin: 0 auto; }
+
+#contentWrap #onlineAudition .title { color: #00a0e9; height: 80px; height: 5rem; height: 4.16667vw; font-size: 28px; font-size: 1.75rem; font-size: 1.45833vw; text-transform: uppercase; font-weight: 600; width: 40%; float: left; }
+
+#contentWrap #onlineAudition .title_02 { color: #00a0e9; height: 80px; height: 5rem; height: 4.16667vw; font-size: 28px; font-size: 1.75rem; font-size: 1.45833vw; margin-bottom: 10px; margin-bottom: 0.625rem; margin-bottom: 0.52083vw; text-transform: uppercase; font-weight: 600; width: 100%; float: left; }
+
+#contentWrap #onlineAudition .adcontent { color: #333; height: 80px; height: 5rem; height: 4.16667vw; font-size: 22px; font-size: 1.375rem; font-size: 1.14583vw; color: #333; width: 60%; float: right; }
+
+#contentWrap #onlineAudition .adcontent_02 { width: 1420px; width: 88.75rem; width: 73.95833vw; margin-bottom: 50px; margin-bottom: 3.125rem; margin-bottom: 2.60417vw; height: 280px; float: left; position: relative; }
+
+#contentWrap #onlineAudition .adcontent_02 .field { width: 100%; height: 280px; height: 14.58333vw; }
+
+#contentWrap #onlineAudition .adcontent_02 .field li { width: 278px; width: 17.375rem; width: 14.47917vw; position: relative; height: 100%; margin-right: 7px; margin-right: 0.3645vw; float: left; background-size: contain; }
+
+#contentWrap #onlineAudition .adcontent_02 .field li > p { text-align: center; width: 100%; position: absolute; left: 0; bottom: 16%; font-size: 22px; font-size: 1.375rem; font-size: 1.14583vw; color: #333; }
+
+#contentWrap #onlineAudition .adcontent_02 .field li:nth-child(1) { background-image: url("../../img/Full/audition/field_01.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .field li:nth-child(2) { background-image: url("../../img/Full/audition/field_02.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .field li:nth-child(3) { background-image: url("../../img/Full/audition/field_03.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .field li:nth-child(4) { background-image: url("../../img/Full/audition/field_04.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .field li:nth-child(5) { background-image: url("../../img/Full/audition/field_05.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .applyway { width: 100%; height: 280px; height: 14.58333vw; }
+
+#contentWrap #onlineAudition .adcontent_02 .applyway > li { width: 350px; width: 21.875rem; width: 18.22917vw; position: relative; margin-right: 6px; margin-right: 0.3125vw; height: 100%; float: left; background-size: contain; }
+
+#contentWrap #onlineAudition .adcontent_02 .applyway > li > p { text-align: center; position: absolute; width: 100%; left: 0; bottom: 16%; font-size: 22px; font-size: 1.375rem; font-size: 1.14583vw; color: #333; }
+
+#contentWrap #onlineAudition .adcontent_02 .applyway > li:nth-child(1) { background-image: url("../../img/Full/audition/applyway_01.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .applyway > li:nth-child(2) { background-image: url("../../img/Full/audition/applyway_02.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .applyway > li:nth-child(3) { background-image: url("../../img/Full/audition/applyway_03.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .applyway > li:nth-child(4) { background-image: url("../../img/Full/audition/applyway_04.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#contentWrap #onlineAudition .adcontent_02 .arrow { width: 820px; width: 51.25rem; width: 42.70833vw; height: 100px; height: 6.25rem; height: 5.20833vw; position: absolute; left: 21%; top: 5vw; z-index: 100; }
+
+#contentWrap #onlineAudition .adcontent_02 .arrow li { width: 100px; width: 6.25rem; width: 5.20833vw; height: 100px; height: 6.25rem; height: 5.20833vw; float: left; background-image: url("../../img/Full/audition/arrow.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; background-size: contain; }
+
+#contentWrap #onlineAudition .adcontent_02 .arrow .arrow_01 { margin-right: 260px; margin-right: 13.541vw; }
+
+#contentWrap #onlineAudition .adcontent_02 .arrow .arrow_02 { margin-right: 260px; margin-right: 13.541vw; }
+
+#contentWrap #onlineAudition { transition: all 1.1s ease-out; }
+
+#contentWrap #onlineAudition.default { transform: translateY(10rem); opacity: 0; }
+
+#contentWrap #apply { display: block; width: 500px; width: 31.25rem; width: 26.04167vw; height: 180px; height: 11.25rem; height: 9.375vw; font-size: 40px; font-size: 2.5rem; font-size: 2.08333vw; transition: all 500ms ease-out; color: #fff; background-color: #00b4e7; margin: 0 auto; margin-top: 200px; margin-top: 10.41vw; }
+
+#contentWrap #apply:hover { background-color: #333; }
+
+#contentWrap #apply.default { transform: translateY(5rem); opacity: 0; }
+
+#contentWrap #faq { display: block; width: 500px; width: 31.25rem; width: 26.04167vw; height: 180px; height: 11.25rem; height: 9.375vw; font-size: 40px; font-size: 2.5rem; font-size: 2.08333vw; transition: all 500ms ease-out; color: #00b4e7; border: solid 1px #00b4e7; box-sizing: border-box; margin: 0 auto; text-align: center; line-height: 180px; line-height: 9.375vw; margin-top: 50px; margin-top: 2.6041vw; text-transform: uppercase; }
+
+#contentWrap #faq:hover { background-color: #333; border: solid 1px #333; }
+
+#contentWrap #faq.default { transform: translateY(5rem); opacity: 0; }
+
+@media screen and (max-width: 1280px) { #contentWrap { height: 2350px; }
+  #contentWrap .intro { font-size: 1rem; }
+  #contentWrap #centerAudition .title { font-size: 40px; font-size: 2.5rem; font-size: 2.08333vw; }
+  #contentWrap #centerAudition .adcontent { font-size: 1rem; }
+  #contentWrap #centerAudition p { font-size: 1rem; }
+  #contentWrap #onlineAudition .title { font-size: 40px; font-size: 2.5rem; font-size: 2.08333vw; }
+  #contentWrap #onlineAudition .title_02 { font-size: 40px; font-size: 2.5rem; font-size: 2.08333vw; }
+  #contentWrap #onlineAudition .adcontent { font-size: 1rem; }
+  #contentWrap #onlineAudition .adcontent_02 .field li p { font-size: 1rem; }
+  #contentWrap #onlineAudition .adcontent_02 .applyway li p { font-size: 1rem; } }
+
+#headBox { width: 100%; height: 120px; background-color: transparent; position: absolute; top: 0px; z-index: 100; padding: 2.5em 3em 0; box-sizing: border-box; }
+
+#headBox h1 { width: 9.8vw; height: 3.64vw; background-color: none; background-size: contain; background-image: url("../../img/Full/jypLogo.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; float: left; }
+
+#headBox h1 > a { display: inline-block; width: 100%; height: 100%; background-color: none; cursor: pointer; }
+
+#headBox #gnbBoox { width: 50px; height: 30px; background-color: none; float: right; right: 3em; position: fixed; z-index: 300; margin-top: 10px; }
+
+#headBox #gnbBoox .gnbLogo { width: 50px; height: 5px; background-color: #00a0e9; position: relative; }
+
+#headBox #gnbBoox .gnbLogo:before { content: " "; display: block; width: 50px; height: 5px; background-color: #00a0e9; position: absolute; top: 10px; }
+
+#headBox #gnbBoox .gnbLogo:after { content: " "; display: block; width: 50px; height: 5px; background-color: #00a0e9; position: absolute; top: -10px; }
+
+#headBox #gnbBox { width: 100vw; display: none; min-width: 960px; left: 0; top: 0; height: 100%; background-image: linear-gradient(to right, #00b4e7, #fff); opacity: 0.9; position: fixed; z-index: 100; }
+
+#headBox #gnbBox .photoWrap { width: 50%; height: 100%; background-color: none; float: left; }
+
+#headBox #gnbBox .photoWrap .gnbpBox { width: 83%; height: 40%; background-color: #ca8; background-size: cover; margin-top: 23%; margin-bottom: 3%; }
+
+#headBox #gnbBox .photoWrap .companyP { background-image: url("../../img/Full/gnb/aboutjyp_hover.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; transition: all 300ms ease-in; }
+
+#headBox #gnbBox .photoWrap .artistP { background-image: url("../../img/Full/gnb/artist_hover.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; transition: all 300ms ease-in; }
+
+#headBox #gnbBox .photoWrap .actorP { background-image: url("../../img/Full/gnb/actor_hover.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; transition: all 300ms ease-in; }
+
+#headBox #gnbBox .photoWrap .auditionP { background-image: url("../../img/Full/gnb/audition_hover.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; transition: all 300ms ease-in; }
+
+#headBox #gnbBox .photoWrap .nomal { background-image: url("../../img/Full/gnb/nomal.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; transition: all 300ms ease-in; }
+
+#headBox #gnbBox .photoWrap .fLBox { width: 40%; height: 30px; background-color: none; margin: 0 18%; margin-bottom: 2%; }
+
+#headBox #gnbBox .photoWrap .fLBox .flList { width: 100%; height: 30px; background-color: none; }
+
+#headBox #gnbBox .photoWrap .fLBox .flList > li { width: 100%; height: 100%; background-color: none; float: left; }
+
+#headBox #gnbBox .photoWrap .fLBox .flList .familysite { width: 57%; margin-right: 3%; }
+
+#headBox #gnbBox .photoWrap .fLBox .flList .familysite select { width: 100%; height: 100%; text-transform: uppercase; }
+
+#headBox #gnbBox .photoWrap .fLBox .flList .language { width: 40%; background-color: #715; }
+
+#headBox #gnbBox .photoWrap .fLBox .flList .language select { width: 100%; height: 100%; text-transform: uppercase; }
+
+#headBox #gnbBox .photoWrap .gsnsBox { width: 110px; height: 30px; background-color: none; margin: 0 30%; }
+
+#headBox #gnbBox .photoWrap .gsnsBox .gsnsList { width: 100%; height: 100%; background-color: none; }
+
+#headBox #gnbBox .photoWrap .gsnsBox .gsnsList > li { width: 30px; height: 100%; background-color: none; margin-right: 10px; float: left; background-size: cover; }
+
+#headBox #gnbBox .photoWrap .gsnsBox .gsnsList > li a { width: 100%; height: 100%; background-color: none; display: block; }
+
+#headBox #gnbBox .photoWrap .gsnsBox .gsnsList .twitter { background-image: url("../../img/Full/gnb/twitter.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#headBox #gnbBox .photoWrap .gsnsBox .gsnsList .facebook { background-image: url("../../img/Full/gnb/facebook.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#headBox #gnbBox .photoWrap .gsnsBox .gsnsList .instagram { background-image: url("../../img/Full/gnb/instagram.png"); background-repeat: no-repeat; background-position: center; overflow: hidden; }
+
+#headBox #gnbBox .listWrap { width: 50%; height: 100%; background-color: none; float: right; }
+
+#headBox #gnbBox .listWrap .listBox { width: 65%; height: 75%; background-color: none; margin: 13% 13%; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist { width: 100%; height: 100%; background-color: none; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li { width: 100%; height: 25%; background-color: none; color: #333; text-align: center; font-family: 'Poiret One'; font-size: 96px; font-size: 6rem; font-size: 5.05263vw; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li:first-letter { text-transform: uppercase; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li.company:hover > .companyMore { display: block; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore { width: 25vw; height: 25%; background-color: none; display: none; margin-left: 0.8em; padding: 1.5% 0; box-sizing: border-box; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore > li { width: 21%; height: 100%; background-color: none; margin-right: 0.3em; font-size: 1.2vw; float: left; font-family: 'nanumGothic'; text-align: center; text-transform: uppercase; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore .notice { width: 18%; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore .aboutJyp { width: 26%; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .companyMore .ir { width: 6%; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li.audition:hover > .auditionMore { display: block; transition: all 900ms; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore { width: 25vw; height: 25%; background-color: none; display: none; margin-left: 0.8em; padding: 1.5% 3%; box-sizing: border-box; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore > li { width: 15%; height: 100%; background-color: none; margin-right: 0.5em; font-size: 1.2vw; float: left; font-family: 'nanumGothic'; text-align: center; text-transform: uppercase; }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore .auditionLi { width: 25%; margin-left: calc(24% - 0.3em); }
+
+#headBox #gnbBox .listWrap .listBox .gnblist > li .auditionMore .faq { width: 12%; }
+
+#topButton { width: 80px; width: 5rem; height: 80px; height: 5rem; margin: 0 auto; margin-bottom: 15em; }
+
+#topButton button { width: 80px; width: 5rem; height: 80px; height: 5rem; background-color: #fff; border: solid #333 1px; box-sizing: border-box; text-transform: uppercase; font-weight: bold; font-size: 1.2rem; color: #333; }
+
+#topButton button:hover { background-color: #333; color: #fff; }
+
+#footBox { width: 100%; height: auto; background-color: #171717; font-family: 'nanumGothic'; }
+
+#footBox::after { content: " "; display: block; clear: both; }
+
+#footBox #footerBox { width: 960px; height: auto; background-color: none; margin: 0 auto; }
+
+#footBox #footerBox .copyright { width: 50%; height: auto; background-color: none; padding: 1.5%; box-sizing: border-box; float: left; }
+
+#footBox #footerBox .copyright > p { width: 100%; height: auto; background-color: none; font-size: 1em; color: #fff; text-transform: uppercase; }
+
+#footBox #footerBox .policy { width: 50%; height: auto; background-color: none; float: right; }
+
+#footBox #footerBox .policy > .policyL { width: 60%; height: auto; background-color: none; float: right; padding: 2.8% 0; box-sizing: border-box; }
+
+#footBox #footerBox .policy > .policyL > li { width: 50%; height: none; background-color: none; float: left; color: #fff; }
